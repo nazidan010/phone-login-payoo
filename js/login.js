@@ -13,7 +13,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     //step 4: validate phone and pin
     if(phoneNumber==='5'&& pinNumber==='1234'){
         console.log('you are logged in');
-        window.location.href='/home.html';
+        window.location.href='./home.html';
         alert('Are you sure login')
     }
     else{
